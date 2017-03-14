@@ -8,7 +8,10 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
-
+#devise
+gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -53,7 +56,7 @@ end
 group :production do
   #interface to Postgresql rdbms
   gem 'pg', '~> 0.20.0'
-  
+
   gem 'rails_12factor', '~> 0.0.3'
 
 end
